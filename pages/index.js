@@ -15,8 +15,8 @@ export default function Home() {
       <Navbar></Navbar>
       </div>
 
-      <div className='flex justify-center'>
-      <h2 className='text 3xl font-bold underline'>My Portfolio</h2>
+      <div className='flex justify-center mt-4'>
+      <h2 className='text 3xl font-bold underline'>Portfolio</h2>
       </div>
       
     </div>

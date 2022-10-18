@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-slate-400 text-gray-900 tracking-normal
+        @apply bg-slate-300 text-gray-900 tracking-normal
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -24,6 +24,6 @@
     }
 
     button {
-        @apply shadow-lg shadow-gray-500 rounded-xl bg-gradient-to-br from-pink-400 to-purple-500 text-white
+        @apply shadow-lg shadow-gray-500 rounded-xl bg-slate-400 hover:bg-green-600 text-white
     }
 }
