@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const Navbar = () => {
     return (
-        <div className='fixed w-full h-20 shadow-xl'>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='relative w-1/2 h-20 shadow-xl rounded-xl'>
+            <div className='flex justify-center w-full h-full px-2 2xl:px-16'>
 
                 <div className='mt-4'>
                     <ul>
