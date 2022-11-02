@@ -24,6 +24,6 @@
     }
 
     button {
-        @apply shadow-lg shadow-gray-500 rounded-xl bg-slate-400 hover:bg-green-600 text-white
+        @apply shadow-lg shadow-gray-500 rounded-xl bg-slate-400 hover:bg-lime-600 text-white
     }
 }

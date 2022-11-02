@@ -1,5 +1,6 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from 'next/link'
+import Image from 'next/image'
+import { AiFillHome } from 'react-icons/ai'
 
 const Navbar = () => {
     return (
@@ -7,21 +8,21 @@ const Navbar = () => {
             <div className='flex justify-center w-full h-full px-2 2xl:px-16'>
 
                 <div className='mt-4'>
-                    <ul>
+                    <ul className='flex justify-center'>
                         <Link href='/'>
-                            <button className='p-2 mx-2'>Home</button>
+                            <button className='p-2 mx-2 hover:scale-110'>Home</button>
                         </Link>
                         <Link href='/'>
-                            <button className='p-2 mx-2'>About</button>
+                            <button className='p-2 mx-2 hover:scale-110'>About</button>
                         </Link>
                         <Link href='/'>
-                            <button className='p-2 mx-2'>Skills</button>
+                            <button className='p-2 mx-2 hover:scale-110'>Skills</button>
                         </Link>
                         <Link href='/'>
-                            <button className='p-2 mx-2'>Projects</button>
+                            <button className='p-2 mx-2 hover:scale-110'>Projects</button>
                         </Link>
                         <Link href='/'>
-                            <button className='p-2 mx-2'>Contact</button>
+                            <button className='p-2 mx-2 hover:scale-110'>Contact</button>
                         </Link>
                     </ul>
                 </div>
